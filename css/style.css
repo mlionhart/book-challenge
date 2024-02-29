@@ -1,0 +1,90 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   width: 550px;
+   margin: 40px auto;
+}
+
+.content {
+   position: relative; 
+    box-shadow: 10px 7px 8px -3px rgba(0,0,0,0.89);
+}
+
+.circle {
+   position: absolute;
+   width: 120px;
+   height: 120px;
+   background: black;
+   border-radius: 50%;
+   top: 83px;
+   right: 40px;
+}
+
+.circle p {
+   color: white;
+   position: absolute;
+   top: 10px;
+   right: 50px;
+}
+
+.circle h1 {
+   position: absolute;
+   top: 13px;
+   left: 22px;
+   font-size: 85px;
+}
+
+header {
+   padding: 70px 0 20px 30px;
+   background: #EFE3D6;
+   display: flex;
+   letter-spacing: 2.5px;
+}
+
+h1 {
+   padding: 8px 0;
+   font-size: 6rem;
+   color: white;
+   width: 80%;
+   font-family: 'PT Sans Narrow';
+   line-height: 1;
+   letter-spacing: -5px;
+}
+
+main {
+   background: #7864AB;
+   padding: 300px 0 140px 20px;
+}
+
+.author, .foreword {
+   color: white;
+}
+
+.author:after {
+   display: block;
+   content: "";
+   background: black;
+   height: 1.5px;
+   margin-top: .4em;
+   width: 80%;
+}
+
+.foreword:before {
+   display: block;
+   content: "";
+   background: black;
+   height: 1.5px;
+   margin-bottom: 1.2em;
+   width: 80%;
+}
+
+sup {
+    text-decoration: underline;
+}
+
+header > h2 {
+    margin-top: .43em;
+}
